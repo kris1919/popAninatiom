@@ -28,8 +28,35 @@
     
     POPSpringAnimation *springAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPViewCenter];
     springAnimation.toValue = [NSValue valueWithCGPoint:CGPointMake(width - self.blueView.center.x, self.blueView.center.y)];
-    springAnimation.repeatCount = 0;
+    springAnimation.beginTime = CACurrentMediaTime();//开始时间
+    springAnimation.springSpeed = 1.0f; //[0-20] 速度越大  越快结束
+    springAnimation.springBounciness = 0; //[0-20] 弹力越大 震动幅度越大
+//    springAnimation.dynamicsTension = 5;//弹簧张力
+//    springAnimation.dynamicsFriction = 5;//弹簧的摩擦力
+//    springAnimation.dynamicsMass = 5;//物体质量
+//    springAnimation.repeatCount = NSIntegerMax;//重复次数
+    springAnimation.repeatForever = YES;
+    springAnimation.autoreverses = YES;
     [self.blueView pop_addAnimation:springAnimation forKey:kPOPViewCenter];
+    __weak typeof (self) weakSelf = self;
+    springAnimation.completionBlock = ^(POPAnimation *anim, BOOL finished) {
+        if (finished) {
+            NSLog(@"%s--%d--%@",__FUNCTION__,__LINE__,NSStringFromCGRect(weakSelf.blueView.frame));
+        }
+    };
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3.0f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.blueView pop_removeAllAnimations];
+    });
+    
+    
+//    [UIView animateWithDuration:2.0f delay:0.0f usingSpringWithDamping:0.5 initialSpringVelocity:0.5 options:UIViewAnimationOptionAutoreverse | UIViewAnimationOptionRepeat animations:^{
+//        weakSelf.purpleView.center = CGPointMake(width - CGRectGetMidX(weakSelf.purpleView.frame), CGRectGetMidY(weakSelf.purpleView.frame));
+//    } completion:nil];
+    
+    [UIView animateWithDuration:1.0f delay:0.0f options:UIViewAnimationOptionAutoreverse | UIViewAnimationOptionRepeat animations:^{
+        weakSelf.purpleView.center = CGPointMake(width - CGRectGetMidX(weakSelf.purpleView.frame), CGRectGetMidY(weakSelf.purpleView.frame));
+    } completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

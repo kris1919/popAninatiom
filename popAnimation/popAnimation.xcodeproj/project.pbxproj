@@ -14,11 +14,13 @@
 		4524732F2148E89200F25AC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4524732D2148E89200F25AC2 /* LaunchScreen.storyboard */; };
 		452473322148E89200F25AC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 452473312148E89200F25AC2 /* main.m */; };
 		4524733A2148F5C900F25AC2 /* SpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 452473392148F5C900F25AC2 /* SpringViewController.m */; };
-		DABACDEDDDB8850DA4DA2D96 /* libPods-popAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B26514AC9B4B43A98B6B26 /* libPods-popAnimation.a */; };
+		45B65808214A523E0024BF54 /* DecayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B65807214A523E0024BF54 /* DecayViewController.m */; };
+		45B6580B214A68910024BF54 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B6580A214A68910024BF54 /* BasicViewController.m */; };
+		DB5E65EA60FA5C81BEDFD870 /* libPods-popAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A83014F1679E547989709B9 /* libPods-popAnimation.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		42B26514AC9B4B43A98B6B26 /* libPods-popAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-popAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A83014F1679E547989709B9 /* libPods-popAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-popAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4524731F2148E89200F25AC2 /* popAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		452473222148E89200F25AC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		452473232148E89200F25AC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -31,6 +33,10 @@
 		452473312148E89200F25AC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		452473382148F5C900F25AC2 /* SpringViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringViewController.h; sourceTree = "<group>"; };
 		452473392148F5C900F25AC2 /* SpringViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringViewController.m; sourceTree = "<group>"; };
+		45B65806214A523E0024BF54 /* DecayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecayViewController.h; sourceTree = "<group>"; };
+		45B65807214A523E0024BF54 /* DecayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecayViewController.m; sourceTree = "<group>"; };
+		45B65809214A68910024BF54 /* BasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		45B6580A214A68910024BF54 /* BasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
 		766374555BC81237553AC4A5 /* Pods-popAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-popAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-popAnimation/Pods-popAnimation.release.xcconfig"; sourceTree = "<group>"; };
 		BC574A827D624FF24F6A8FA9 /* Pods-popAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-popAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-popAnimation/Pods-popAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DABACDEDDDB8850DA4DA2D96 /* libPods-popAnimation.a in Frameworks */,
+				DB5E65EA60FA5C81BEDFD870 /* libPods-popAnimation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +89,10 @@
 				452473262148E89200F25AC2 /* ViewController.m */,
 				452473382148F5C900F25AC2 /* SpringViewController.h */,
 				452473392148F5C900F25AC2 /* SpringViewController.m */,
+				45B65806214A523E0024BF54 /* DecayViewController.h */,
+				45B65807214A523E0024BF54 /* DecayViewController.m */,
+				45B65809214A68910024BF54 /* BasicViewController.h */,
+				45B6580A214A68910024BF54 /* BasicViewController.m */,
 				452473282148E89200F25AC2 /* Main.storyboard */,
 				4524732B2148E89200F25AC2 /* Assets.xcassets */,
 				4524732D2148E89200F25AC2 /* LaunchScreen.storyboard */,
@@ -95,7 +105,7 @@
 		905722A6FFCF338FB67453C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				42B26514AC9B4B43A98B6B26 /* libPods-popAnimation.a */,
+				2A83014F1679E547989709B9 /* libPods-popAnimation.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -191,9 +201,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-popAnimation/Pods-popAnimation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -228,7 +241,9 @@
 				452473272148E89200F25AC2 /* ViewController.m in Sources */,
 				452473322148E89200F25AC2 /* main.m in Sources */,
 				452473242148E89200F25AC2 /* AppDelegate.m in Sources */,
+				45B65808214A523E0024BF54 /* DecayViewController.m in Sources */,
 				4524733A2148F5C900F25AC2 /* SpringViewController.m in Sources */,
+				45B6580B214A68910024BF54 /* BasicViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

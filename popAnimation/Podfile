@@ -1,4 +1,5 @@
 platform:ios,'8.0'
+inhibit_all_warnings!
 target 'popAnimation' do 
 
 pod 'pop', '~> 1.0.10'

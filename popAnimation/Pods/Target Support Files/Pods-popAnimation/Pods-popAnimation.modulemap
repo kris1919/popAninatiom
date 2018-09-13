@@ -1,0 +1,6 @@
+framework module Pods_popAnimation {
+  umbrella header "Pods-popAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

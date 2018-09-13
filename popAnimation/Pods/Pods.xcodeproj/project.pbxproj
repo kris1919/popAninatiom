@@ -8,61 +8,61 @@
 
 /* Begin PBXBuildFile section */
 		052E73C6334A341A4AA475C5D45C1449 /* POPBasicAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 41CA38C1639E102D40D204D332D2E539 /* POPBasicAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0BECDFB287344DB4EAC68804843A4951 /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = E6B176FA22368700A19EA8A74A08B438 /* POPAnimator.mm */; };
 		0EAD9C31ADC1A7B3591CDBDA0493C9B7 /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 750F77382C7CA081C5C67718FD69B775 /* POPAnimationRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		10649CC67EF9D5D372B44A57DE3D761F /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 571096A352CCFD388D270A993BB3B30E /* POPPropertyAnimation.mm */; };
 		112CA0B2EFDDF3891480A68EE09EE540 /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 391B1FEC00DD6CF3C1831C62ED0965C0 /* POPDecayAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		123C2383AF5BADAAE7564473AACBC51B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1326C98485C5FA842D2BC2BC4221F349 /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 848542937A6312057D3663935E332F9A /* POPAnimationTracer.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		148E7FAC21B515B3C55BA9FDFB1A8368 /* POPLayerExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 88BC3DE0CC11D6748D5F787A4257AC34 /* POPLayerExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1975580F3892EF727DD67B2A0C4AD578 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77AB302FA7332367D3C7676AD9D5FB55 /* POPAnimationEvent.mm */; };
+		17492097B69AE1C305F5B43430E52433 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 64F4A04074817E2009D64FF94BDE5684 /* POPAnimation.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1AA4EE53E82EA25B4426B9F1CA3AF3F7 /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 571096A352CCFD388D270A993BB3B30E /* POPPropertyAnimation.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		22D7D04D60006B5616D7182881B5BA47 /* UnitBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A18AC82B7AD130669B7E5F2A19485A /* UnitBezier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2373C668F8670FB52974E1F14BB2FE0B /* pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FFBF299898EAF1C64757B612865FC2 /* pop-dummy.m */; };
 		24323DA31763AC5D9C09AFDE6A93FD62 /* POPAnimatableProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 451EA13277C27D8CA24CFEF6E29A0391 /* POPAnimatableProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		276833B27309DEDFE6BDB37BBC4C9F52 /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = FE284B788B43E5B9A2B7C7FAF7299976 /* POPAnimationEventInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2BE64842FD918A147D7F4D27B3EC880E /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77AB302FA7332367D3C7676AD9D5FB55 /* POPAnimationEvent.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2FDE49F6462F53ECBF76324955E4F4DC /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 039F027096C3E8609B1F9155422C8819 /* POPVector.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		346E3C6274758057B4745CBE4E129292 /* Pods-popAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97838C5D99AC4AA2E65228A0B1F110C7 /* Pods-popAnimation-dummy.m */; };
 		3738E4677DF47E151E82C0D7739133A2 /* POPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5128A84C03D294945EAFC5BA3CFFA733 /* POPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37B94DB8DFB21C4506E33FDD62F2F4C0 /* POPPropertyAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC53B1689C412E764D09A969E68DA74 /* POPPropertyAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		384EA7188E8A658A1F8809645DBFEC16 /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = EB987F34EA8398F66C64BDFF2E66D6E7 /* POPCustomAnimation.mm */; };
+		397C0DE14C20357C0DAA21E478B03860 /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 009C8EEEE844347957CDBE42C770F309 /* POPDecayAnimation.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		3BB5D1EEAA99C6AA3F9BB7156D1C8180 /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = D054ECA807F3E71F6E271E93E3E33E48 /* POPAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4058F4B9A1E7792C424FFC050AD65256 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = A314C1676553B1CC95AD2C2FA81E1C27 /* POPAnimatableProperty.mm */; };
 		43BEFDCE1BCCB3EFF7A6A29CE4BDF768 /* POPDecayAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 30128DD8D56147D8A040BDCC422F7CE7 /* POPDecayAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B5002AF0317DD318EA55026DD9063F8 /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 533606EB9A4D46CDF8B2885EA87DE2ED /* POPLayerExtras.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4C047E0B8AD8F134E856D7B68A3A0697 /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C91DCAC4AF571A1E6EB6C7F66FBF1D /* POPCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51B83172F40AD3BE32D956AAE92E7CAE /* POPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1BCC6633AA2C5F46A3D9C1CC7A1390 /* POPGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5612F77A329D57F0C0AE7E32E9036978 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 64F4A04074817E2009D64FF94BDE5684 /* POPAnimation.mm */; };
+		51FDDF467D43E65C70F0BF802E07B19F /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = E6B176FA22368700A19EA8A74A08B438 /* POPAnimator.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		57D322C6C6CE47871D7FACE51DBDCEEE /* POPAnimatablePropertyTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A12479E51B13675AFC55797ABA3745F /* POPAnimatablePropertyTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C5F16AE13A9ABE8629E1767C51E739F /* POPAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3532C05EAF4C9490B8B431E610171F76 /* POPAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DC2DD9C668969391C6F2DFF8E1E6E83 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F65ACAB5565E84937A3D119EA636D35 /* POPSpringAnimation.mm */; };
 		5F2D44BCC4AB620D72F7ED138D204838 /* POPSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 41FA8C6B876876DA1B499C9EF87499DC /* POPSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FD99E0961989C9BB56E45205763C08F /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1898C116AA7D19A2383CDEDD5D67A55E /* POPCGUtils.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		610CF6CB0FC8A6215307850BF35EF576 /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = BCAD4065B79D31F65601B4289AD4DFF0 /* POPGeometry.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		65A892151CA1529D671910ECECB1A35A /* POPAnimatorPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = D50A3A4EC86C890C02049C795634A036 /* POPAnimatorPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		688CE506E49D7EF63AA401FC0DC77D37 /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 848542937A6312057D3663935E332F9A /* POPAnimationTracer.mm */; };
 		68B52F10A508DE8CC85B07C3C6F4CA75 /* POPAnimationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 10FB1FF2E9AF05E0894688F6C6C5A0D4 /* POPAnimationPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7C69EF47D98C020DBD4AEE6979B3AC1C /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 642D1D38BBD855E54B3D49F2D08953E4 /* POPMath.mm */; };
 		881A466E6754BE735CB0794CBA1FBC9A /* POPAnimationTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = B1CCDDBB3EE28F85F799AE150F1D0AFB /* POPAnimationTracer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		881ACE96037565F3CBBF2FBE54BD5753 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F65ACAB5565E84937A3D119EA636D35 /* POPSpringAnimation.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		88A6622496FBBEDD7711B3F6366474D8 /* POPAnimationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 434D69873AF8CC4E9E57F616E61A8AC9 /* POPAnimationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CC3DCAC913C30DB79D850D80A331730 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = A314C1676553B1CC95AD2C2FA81E1C27 /* POPAnimatableProperty.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9186D068E52B162CF9515EE6E6E33B08 /* POPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = D719FF3FC80F39E87751A28FC5A1CFB7 /* POPAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9F9E8A5116B94CBF9988E708F0EBF6DF /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1898C116AA7D19A2383CDEDD5D67A55E /* POPCGUtils.mm */; };
+		954E250E39E00BE669CA7F75AACB1A73 /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 642D1D38BBD855E54B3D49F2D08953E4 /* POPMath.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9D1AB086B652D9C036CA83BCEF6BF078 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B268DEF3C9C56658DBD5C1714C8852E /* TransformationMatrix.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A57308FD8EA3BC26FF673A4F371647D9 /* POPCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A23240B01C4BEB585EF594C29E48FD77 /* POPCGUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A7109377F91C3A115EC741CF53A5CEAB /* POPAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = F31959BDC72B5A4BFE57CB0C3F130617 /* POPAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AD31CFF5081978180E0808C189AAB5BD /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = F83C2D366663F20690C6F30506D8EFA7 /* POPVector.mm */; };
-		ADC36139CAA72E80B57D42906F7F788D /* pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FFBF299898EAF1C64757B612865FC2 /* pop-dummy.m */; };
+		B07014DDB8A06FE1180DAAA6AEBF18FD /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 20BC776E2CEB5252C36032EBDAA1A7AB /* POPBasicAnimation.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B0B1AF90988B88D4D472446FE3F340AF /* POPMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 7874C9AC6C4A9B2106789F0D81610EA7 /* POPMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B2465F164EE495C6490E2BEACBCD8E85 /* POP.h in Headers */ = {isa = PBXBuildFile; fileRef = 773A98EF3682932067CA936BEDF43408 /* POP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA8EDDD4167514155D46E230B3879677 /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 965213F95615432276927E143019D94D /* POPAnimationRuntime.mm */; };
 		BCF602F44FEA92FBA7D97A58D0F2EEC0 /* POPSpringAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC89AF70F149D2C0538C9A2F0BF7F34 /* POPSpringAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BDA8A283B70FE0502D5B263901A1BD8B /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = EB987F34EA8398F66C64BDFF2E66D6E7 /* POPCustomAnimation.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		BE6764D5C94861A86FB88AF6F8704838 /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DDC60B8B60347EB48F9D0619A32456 /* POPBasicAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C69CA9D14E8F1A7AC02D44938B8A6333 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C74FE738F02FF2A142F40BBFD618528B /* POPSpringSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 110412F17AC64407232EF143264DB34A /* POPSpringSolver.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CBC1BF3A61F6DF14E828F2EF57A5E4EF /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B268DEF3C9C56658DBD5C1714C8852E /* TransformationMatrix.cpp */; };
-		CD93C159E60CBA5A9FBD163127EF9309 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 20BC776E2CEB5252C36032EBDAA1A7AB /* POPBasicAnimation.mm */; };
+		C9096EB6D7862062BEE07733727C9A1A /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 965213F95615432276927E143019D94D /* POPAnimationRuntime.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CF1E3F100F105CE6FF311FCE84574D62 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = F83C2D366663F20690C6F30506D8EFA7 /* POPVector.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		DB55BC2E4744F1882539A389EAB7BD99 /* FloatConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC5A3B5F3B353DE5E64659935E8B6FD /* FloatConversion.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E1213A553753B1C770203C5A21BDC8DC /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3B1F404DD5340B293869B37B9CA640A4 /* POPAnimationExtras.mm */; };
 		E1338524CF15E05C2F0385935E63B720 /* POPAnimationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = F39ECF9601D4566EF563DCC7E816A4D1 /* POPAnimationExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E36DDD72C522B7BDD488FD836338B38A /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3B1F404DD5340B293869B37B9CA640A4 /* POPAnimationExtras.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E93918D57F5AA5BA3611B4528A4CDCA5 /* TransformationMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA634F09114B9FDEC78BE34EE979DEC /* TransformationMatrix.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EC3B0B33F8E8188D1AC4DE307542F76A /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = BCAD4065B79D31F65601B4289AD4DFF0 /* POPGeometry.mm */; };
 		EE34A7F7F0B53EC25F1B4A30921A5B9A /* POPPropertyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 35FCBEE7A7FA0ED3AEF3E204AB4E5DA5 /* POPPropertyAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F58554E8D10CB8FD4A647B1CB5E1CDBC /* POPAnimationTracerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = D717C53A81243A942134041FF45F3914 /* POPAnimationTracerInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F6DB78C65EAAB9BFBCAE7C92C0162321 /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 009C8EEEE844347957CDBE42C770F309 /* POPDecayAnimation.mm */; };
-		F7D3346C430D0423EF05CE1788B8DB03 /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 533606EB9A4D46CDF8B2885EA87DE2ED /* POPLayerExtras.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -371,7 +371,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 905B7ED03B76974F5C5B63A7802EC9FC /* Build configuration list for PBXNativeTarget "pop" */;
 			buildPhases = (
-				A23B5B9CFEF78423C77C1E628BE57DD8 /* Sources */,
+				937546C79590D96605A442EFEFB5B167 /* Sources */,
 				C0195125AE9AE2B0E9396C7C6C1820EE /* Frameworks */,
 				BAF62CE71890924CF6C59753A7E700CA /* Headers */,
 			);
@@ -420,29 +420,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A23B5B9CFEF78423C77C1E628BE57DD8 /* Sources */ = {
+		937546C79590D96605A442EFEFB5B167 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADC36139CAA72E80B57D42906F7F788D /* pop-dummy.m in Sources */,
-				4058F4B9A1E7792C424FFC050AD65256 /* POPAnimatableProperty.mm in Sources */,
-				5612F77A329D57F0C0AE7E32E9036978 /* POPAnimation.mm in Sources */,
-				1975580F3892EF727DD67B2A0C4AD578 /* POPAnimationEvent.mm in Sources */,
-				E1213A553753B1C770203C5A21BDC8DC /* POPAnimationExtras.mm in Sources */,
-				BA8EDDD4167514155D46E230B3879677 /* POPAnimationRuntime.mm in Sources */,
-				688CE506E49D7EF63AA401FC0DC77D37 /* POPAnimationTracer.mm in Sources */,
-				0BECDFB287344DB4EAC68804843A4951 /* POPAnimator.mm in Sources */,
-				CD93C159E60CBA5A9FBD163127EF9309 /* POPBasicAnimation.mm in Sources */,
-				9F9E8A5116B94CBF9988E708F0EBF6DF /* POPCGUtils.mm in Sources */,
-				384EA7188E8A658A1F8809645DBFEC16 /* POPCustomAnimation.mm in Sources */,
-				F6DB78C65EAAB9BFBCAE7C92C0162321 /* POPDecayAnimation.mm in Sources */,
-				EC3B0B33F8E8188D1AC4DE307542F76A /* POPGeometry.mm in Sources */,
-				F7D3346C430D0423EF05CE1788B8DB03 /* POPLayerExtras.mm in Sources */,
-				7C69EF47D98C020DBD4AEE6979B3AC1C /* POPMath.mm in Sources */,
-				10649CC67EF9D5D372B44A57DE3D761F /* POPPropertyAnimation.mm in Sources */,
-				5DC2DD9C668969391C6F2DFF8E1E6E83 /* POPSpringAnimation.mm in Sources */,
-				AD31CFF5081978180E0808C189AAB5BD /* POPVector.mm in Sources */,
-				CBC1BF3A61F6DF14E828F2EF57A5E4EF /* TransformationMatrix.cpp in Sources */,
+				2373C668F8670FB52974E1F14BB2FE0B /* pop-dummy.m in Sources */,
+				8CC3DCAC913C30DB79D850D80A331730 /* POPAnimatableProperty.mm in Sources */,
+				17492097B69AE1C305F5B43430E52433 /* POPAnimation.mm in Sources */,
+				2BE64842FD918A147D7F4D27B3EC880E /* POPAnimationEvent.mm in Sources */,
+				E36DDD72C522B7BDD488FD836338B38A /* POPAnimationExtras.mm in Sources */,
+				C9096EB6D7862062BEE07733727C9A1A /* POPAnimationRuntime.mm in Sources */,
+				1326C98485C5FA842D2BC2BC4221F349 /* POPAnimationTracer.mm in Sources */,
+				51FDDF467D43E65C70F0BF802E07B19F /* POPAnimator.mm in Sources */,
+				B07014DDB8A06FE1180DAAA6AEBF18FD /* POPBasicAnimation.mm in Sources */,
+				5FD99E0961989C9BB56E45205763C08F /* POPCGUtils.mm in Sources */,
+				BDA8A283B70FE0502D5B263901A1BD8B /* POPCustomAnimation.mm in Sources */,
+				397C0DE14C20357C0DAA21E478B03860 /* POPDecayAnimation.mm in Sources */,
+				610CF6CB0FC8A6215307850BF35EF576 /* POPGeometry.mm in Sources */,
+				4B5002AF0317DD318EA55026DD9063F8 /* POPLayerExtras.mm in Sources */,
+				954E250E39E00BE669CA7F75AACB1A73 /* POPMath.mm in Sources */,
+				1AA4EE53E82EA25B4426B9F1CA3AF3F7 /* POPPropertyAnimation.mm in Sources */,
+				881ACE96037565F3CBBF2FBE54BD5753 /* POPSpringAnimation.mm in Sources */,
+				CF1E3F100F105CE6FF311FCE84574D62 /* POPVector.mm in Sources */,
+				9D1AB086B652D9C036CA83BCEF6BF078 /* TransformationMatrix.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
